@@ -1,0 +1,116 @@
+/*Main section body and div*/
+#page{
+border: 4px double rgb(146,142,79);
+padding: 20px;
+margin: 10px auto 10px;
+background-color:#FFD9A2;
+}
+/*give body background color font weight and size*/
+body{
+background-color:#848B43;
+font-family: Arial, "gil sans" ,sans-serif;
+font-weight:normal;
+font-size:1em;
+line-height:1.2em;
+}
+
+/*Fonts from the web*/
+@font-face{
+font-family: 'Shadows Into Light Two', cursive;
+src:url('http://fonts.googleapis.com/css?family=Shadows+Into+Light+Two');
+font-family: "Raleway", sans-serif;
+src:url('http://fonts.googleapis.com/css?family=Raleway:400,500');
+font-family: 'Lato', sans-serif;
+src:url('http://fonts.googleapis.com/css?family=Lato');
+}
+
+/*headers 1,2,3,blocquote and paragraph styles */
+h1{
+font-family:'Shadows Into Light Two',cursive;
+color:rgb(146,142,79);
+text-align:center;
+text-shadow:1px 1px  #587541;
+font-size:48px;
+margin:40px auto;
+padding:20px;
+}
+h2 {
+font-family: Raleway, sans-serif;
+color:#848B43;
+text-indent:40px;
+text-decoration:underline;
+font-size:30px;
+margin:25px auto 25px auto;
+padding:10px;
+}
+h3{
+font-family: Lato, sans-serif;
+font-weight: bold;
+color:#B3BD5B;
+text-indent:50px;
+font-size:24px;
+margin:25px auto 25px auto;
+padding: 10px;}
+
+p.text{
+text-indent:30px;
+text-align:left;
+margin:16px auto 16px auto;
+padding:10px;}
+
+p.credits{
+font-style:italic;}
+
+blockquote{
+border: 3px dotted #DC5625;
+padding:10px;
+border-radius:10px;}
+li.navbar{
+display:inline;}
+
+
+/*navigation and lists */
+ul.navbar {
+    list-style-type: none;
+    margin-right: 10px;
+    padding: 4px;
+    text-align:center;}
+
+a:link{
+color: #8C7249;}
+a:visited{
+color:#4F4629;}
+a:hover{
+color:#DC5625 }
+a:active{
+color:#F7C43A }
+
+ol.habitat{
+list-style:circle inside;
+}
+
+/*Images and figcaption*/
+
+p.bigImage{
+width:500px;
+height:337px;
+border:10px ridge #FFD9A2;
+box-shadow:5px 5px 5px #28361E;
+margin:auto;
+padding:5px;}
+
+figcaption{
+text-align:center;}
+
+
+ul.image{
+list-style-type: none;
+text-align:center;
+}
+
+li.image{
+display:inline;
+}
+
+
+

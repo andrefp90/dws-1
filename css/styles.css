@@ -1,17 +1,28 @@
 /*Main section body and div*/
 #page{
 border: 4px double rgb(146,142,79);
-padding: 20px;
-margin: 10px auto 10px;
+position:absolute;
+padding: 2%;
+margin: 2%;
+background:url(../images/track.png) no-repeat center center ;
+background-attachment:fixed;
 background-color:#FFD9A2;
-}
+overflow:auto;}
+
+#content{
+float:left;
+width:60%;
+margin:1%;
+clear:both;}
+
 /*give body background color font weight and size*/
 body{
-background-color:#848B43;
+background-image:url(../images/pattern_137.gif);
 font-family: Arial, "gil sans" ,sans-serif;
 font-weight:normal;
 font-size:1em;
 line-height:1.2em;
+width:90%;
 }
 
 /*Fonts from the web*/
@@ -29,42 +40,42 @@ h1{
 font-family:'Shadows Into Light Two',cursive;
 color:rgb(146,142,79);
 text-align:center;
-text-shadow:1px 1px  #587541;
-font-size:48px;
-margin:40px auto;
-padding:20px;
+text-shadow:0.025em 0.025em #587541;
+font-size:2em ;
+margin:3% ;
+padding:5%;
 }
 h2 {
 font-family: Raleway, sans-serif;
 color:#848B43;
-text-indent:40px;
+text-indent:1%;
 text-decoration:underline;
-font-size:30px;
-margin:25px auto 25px auto;
-padding:10px;
+font-size:1em;
+margin:3% auto 3%  auto;
+padding:2%;
 }
 h3{
 font-family: Lato, sans-serif;
 font-weight: bold;
 color:#B3BD5B;
-text-indent:50px;
-font-size:24px;
-margin:25px auto 25px auto;
-padding: 10px;}
+font-size:1.500em;
+margin:3% auto 3% auto;
+padding: 2%;
+clear:both;}
 
 p.text{
-text-indent:30px;
+text-indent:2%;
 text-align:left;
-margin:16px auto 16px auto;
-padding:10px;}
+margin:1% auto 1% auto;
+padding:2%;}
 
 p.credits{
 font-style:italic;}
 
 blockquote{
-border: 3px dotted #DC5625;
-padding:10px;
-border-radius:10px;}
+border: 0.075em dotted #DC5625;
+padding:1%;
+border-radius:1%;}
 li.navbar{
 display:inline;}
 
@@ -72,8 +83,8 @@ display:inline;}
 /*navigation and lists */
 ul.navbar {
     list-style-type: none;
-    margin-right: 10px;
-    padding: 4px;
+    margin-right: 1%;
+    padding: 1%;
     text-align:center;}
 
 a:link{
@@ -92,25 +103,36 @@ list-style:circle inside;
 /*Images and figcaption*/
 
 p.bigImage{
-width:500px;
-height:337px;
+max-width:80%;
 border:10px ridge #FFD9A2;
 box-shadow:5px 5px 5px #28361E;
 margin:auto;
-padding:5px;}
+padding:1%;
+}
+.img{
+max-width:100%}
 
 figcaption{
-text-align:center;}
+text-align:left;}
 
 
 ul.image{
 list-style-type: none;
-text-align:center;
+float:right;
+max-width:35%;
+margin:auto;
+padding:1%;
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#c7d872), color-stop(100%,#75890c));
+background: -webkit-linear-gradient(top, #c7d872 0%,#75890c 100%);
+background: linear-gradient(to bottom, #c7d872 0%,#75890c 100%)repeat center center;
+background-size:cover;
 }
 
-li.image{
-display:inline;
-}
+
+
+
+
+
 
 
 
